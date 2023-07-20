@@ -1,0 +1,38 @@
+main { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.black  {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: 72px;
+
+    
+}
+.white  {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    font-size: 72px;
+
+
+
+}
+body { 
+    text-align: center;
+    align-items: center;
+    width: 200vh;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+
+}
